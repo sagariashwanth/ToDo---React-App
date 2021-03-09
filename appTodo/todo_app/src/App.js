@@ -37,7 +37,7 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>ToDo App</h1>
       {/* using your useState {input} value in input below */}
       <form>
         <FormControl>
@@ -54,8 +54,7 @@ function App() {
           type="submit"
           onClick={addTodo}
           variant="contained"
-          color="primary"
-        >
+          color="primary">
           Add Todo
         </Button>
       </form>
